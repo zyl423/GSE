@@ -1,1 +1,23 @@
-/build
+# 编译生成的文件夹
+/build/
+
+# Visual Studio文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# 编译输出
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.dll
+*.lib
+
+# CMake生成文件
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
